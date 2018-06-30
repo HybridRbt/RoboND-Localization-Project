@@ -9,7 +9,7 @@
   <arg name="headless" default="false"/>
   <arg name="debug" default="false"/>
 
-  <include file="$(find gazebo_ros)/launch/udacity_world.launch">
+  <include file="$(find gazebo_ros)/launch/empty_world.launch">
     <arg name="world_name" value="$(find udacity_bot)/worlds/jackal_race.world"/>
     <arg name="paused" value="$(arg paused)"/>
     <arg name="use_sim_time" value="$(arg use_sim_time)"/>
