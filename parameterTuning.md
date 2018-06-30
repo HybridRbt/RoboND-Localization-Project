@@ -10,3 +10,5 @@
 Tune the cost map parameters
 
 First fill in the default values from ROS wiki.
+
+The robot navigates, but will drop off path frequently, seems like it was trying too hard to avoid the obstacles. 
