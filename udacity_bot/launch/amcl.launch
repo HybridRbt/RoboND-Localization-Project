@@ -17,10 +17,10 @@
     <param name="max_particles" value="300"/>
     <param name="initial_pose" value="[0, 0]"/>
     <param name="laser_min_range" value="0.1"/>
-    <param name="laser_max_range" value="50"/>
+    <param name="laser_max_range" value="5"/>
     <param name="odom_model_type" value="diff-corrected"/>
-    <param name="laser_max_beams" value="90"/> <!-- default is 30 -->
-    <param name="update_min_d" value="0.15"/> <!-- default is 0.2 -->
+    <param name="laser_max_beams" value="60"/> <!-- default is 30 -->
+    <param name="update_min_d" value="0.2"/> <!-- default is 0.2 -->
     <!-- <param name="update_min_a" value="[0, 0]"/>  use default -->
   </node>
 
