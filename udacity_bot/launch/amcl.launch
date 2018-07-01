@@ -38,7 +38,7 @@
 
     <param name="base_global_planner" type="string" value="navfn/NavfnROS"/>
     <param name="base_local_planner" value="base_local_planner/TrajectoryPlannerROS"/>
-
+    <param name="controller_frequency" value="16"/>
   </node>
 
 </launch>
