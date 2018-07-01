@@ -15,7 +15,7 @@
     <param name="transform_tolerance" value="0.2"/>
     <param name="min_particles" value="20"/>
     <param name="max_particles" value="300"/>
-    <param name="initial_pose" value="[0, 0]"/>
+    <!-- <param name="initial_pose" value="[0, 0]"/> -->
     <!-- <param name="laser_min_range" value="0.5"/> -->
     <!-- <param name="laser_max_range" value="6"/> -->
     <param name="odom_model_type" value="diff-corrected"/>
