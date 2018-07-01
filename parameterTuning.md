@@ -20,3 +20,8 @@ obstacle_range: 2.5
 raytrace_range: 2.0
 inflation_radius: 0.3
 test run 1.gif
+
+obstacle_range: 2.0
+raytrace_range: 2.5
+inflation_radius: 0.3
+test run 2.gif
