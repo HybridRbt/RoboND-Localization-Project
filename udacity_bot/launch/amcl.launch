@@ -19,10 +19,9 @@
     <!-- <param name="laser_min_range" value="0.5"/> -->
     <!-- <param name="laser_max_range" value="6"/> -->
     <param name="odom_model_type" value="diff-corrected"/>
-    <!-- <param name="laser_max_beams" value="50"/> <!-- default is 30 -->
-    <param name="update_min_d" value="0.1"/> <!-- default is 0.2 -->
-    <param name="laser_model_type" value="likelihood_field"/> <!-- default is 0.2 -->
-    <!-- <param name="update_min_a" value="[0, 0]"/>  use default -->
+    <param name="update_min_d" value="0.1"/>
+    <!-- default is 0.2 -->
+    <param name="laser_model_type" value="likelihood_field"/>
   </node>
 
   <!-- Move base -->
