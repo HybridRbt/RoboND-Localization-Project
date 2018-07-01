@@ -11,4 +11,12 @@ Tune the cost map parameters
 
 First fill in the default values from ROS wiki.
 
-The robot navigates, but will drop off path frequently, seems like it was trying too hard to avoid the obstacles. 
+The robot navigates, but will drop off path frequently, seems like it was trying too hard to avoid the obstacles.
+
+Turns out the flickering has nothing to do with the transform_tolerance, the default value of 0.1 will do just fine. The problem is in Rviz, if you choose Interact on the tools menubar, the screen WILL flicker. Choose another tool, i.e. "move camera" the flickering disappears
+
+tweak costmap parameters
+obstacle_range: 2.5
+raytrace_range: 2.0
+inflation_radius: 0.3
+test run 1.gif
