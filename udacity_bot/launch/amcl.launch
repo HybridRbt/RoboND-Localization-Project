@@ -15,6 +15,12 @@
     <param name="transform_tolerance" value="0.2"/>
     <param name="min_particles" value="150"/>
     <param name="max_particles" value="500"/>
+    <param name="initial_pose" value="[0, 0]"/>
+    <param name="laser_min_range" value="0.1"/>
+    <param name="laser_max_range" value="5"/>
+    <param name="laser_max_beams" value="60"/> <!-- default is 30 -->
+    <param name="update_min_d" value="0.1"/> <!-- default is 0.1 -->
+    <!-- <param name="update_min_a" value="[0, 0]"/>  use default -->
   </node>
 
   <!-- Move base -->
