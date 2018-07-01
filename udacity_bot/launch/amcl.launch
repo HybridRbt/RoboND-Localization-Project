@@ -19,6 +19,7 @@
     <param name="laser_min_range" value="0.1"/>
     <param name="laser_max_range" value="3"/>
     <param name="odom_model_type" value="diff-corrected"/>
+    <param name="controller_frequency" value="16"/>
     <param name="laser_max_beams" value="90"/> <!-- default is 30 -->
     <param name="update_min_d" value="0.1"/> <!-- default is 0.2 -->
     <!-- <param name="update_min_a" value="[0, 0]"/>  use default -->
