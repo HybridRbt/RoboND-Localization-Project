@@ -4,6 +4,14 @@
 
   <xacro:include filename="$(find roborock)/urdf/roborock.gazebo"/>
 
+  <material name="army_green">
+    <color rgba="45 134 45 1"/>
+    </material>
+
+  <material name="black">
+    <color rgba="0 0 0 1"/>
+  </material>
+
   <link name="robot_footprint"></link>
 
   <joint name="robot_footprint_joint" type="fixed">
@@ -33,6 +41,7 @@
       <geometry>
         <cylinder radius="0.4" length="0.15"/>
       </geometry>
+      <material name="army_green">
     </visual>
 
     <collision name='back_caster_collision'>
@@ -92,6 +101,7 @@
       <geometry>
         <cylinder radius="0.1" length="0.05"/>
       </geometry>
+      <material name="black">
     </visual>
   </link>
 
@@ -123,6 +133,7 @@
       <geometry>
         <cylinder radius="0.1" length="0.05"/>
       </geometry>
+      <material name="black">
     </visual>
   </link>
 
