@@ -21,7 +21,7 @@
   <include file="$(find roborock)/launch/roborock_description.launch"/>
 
   <!--spawn a robot in gazebo world-->
-  <node name="urdf_spawner" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen" args="-urdf -param roborock_description -model roborock"/>
+  <node name="urdf_spawner" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen" args="-urdf -param robot_description -model roborock"/>
 
   <!--launch rviz-->
   <node name="rviz" pkg="rviz" type="rviz" respawn="false"/>
