@@ -12,6 +12,10 @@
         <color rgba="0 0 0 1"/>
     </material>
 
+    <material name="slightly_yellow">
+        <color rgba="255 255 204 1"/>
+    </material>
+
     <link name="robot_footprint"></link>
 
     <joint name="robot_footprint_joint" type="fixed">
@@ -56,6 +60,7 @@
             <geometry>
                 <sphere radius="0.05"/>
             </geometry>
+            <material name="slightly_yellow"/>
         </visual>
 
         <collision name='front_caster_collision'>
@@ -70,6 +75,7 @@
             <geometry>
                 <sphere radius="0.05"/>
             </geometry>
+            <material name="slightly_yellow"/>
         </visual>
     </link>
 
