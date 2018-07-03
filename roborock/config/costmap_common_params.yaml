@@ -1,8 +1,8 @@
 map_type: costmap
 
-obstacle_range: 3.2
-raytrace_range: 3.8
-inflation_radius: 0.16
+obstacle_range: 3.0
+raytrace_range: 3.9
+inflation_radius: 0.15
 
 transform_tolerance: 0.2
 
