@@ -41,7 +41,7 @@
       <geometry>
         <cylinder radius="0.4" length="0.15"/>
       </geometry>
-      <material name="army_green">
+      <material name="army_green" />
     </visual>
 
     <collision name='back_caster_collision'>
@@ -101,7 +101,7 @@
       <geometry>
         <cylinder radius="0.1" length="0.05"/>
       </geometry>
-      <material name="black">
+      <material name="black"/>
     </visual>
   </link>
 
@@ -133,7 +133,7 @@
       <geometry>
         <cylinder radius="0.1" length="0.05"/>
       </geometry>
-      <material name="black">
+      <material name="black"/>
     </visual>
   </link>
 
