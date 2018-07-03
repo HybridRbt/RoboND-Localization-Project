@@ -87,7 +87,7 @@
 
     <!-- materials for body parts -->
     <gazebo reference="chassis">
-        <material>Gazebo/GreenTransparentOverlay</material>
+        <material>Gazebo/WhiteGlow</material>
     </gazebo>
 
     <gazebo reference="left_wheel">
@@ -99,11 +99,11 @@
     </gazebo>
 
     <gazebo reference="front_caster_visual">
-        <material>Gazebo/WhiteGlow</material>
+        <material>Gazebo/GreenTransparentOverlay</material>
     </gazebo>
 
     <gazebo reference="back_caster_visual">
-        <material>Gazebo/WhiteGlow</material>
+        <material>Gazebo/GreenTransparentOverlay</material>
     </gazebo>
 
 </robot>
