@@ -5,7 +5,7 @@
     <xacro:include filename="$(find roborock)/urdf/roborock.gazebo"/>
 
     <material name="army_green">
-        <color rgba="45 134 45 1"/>
+        <color rgba="51 153 102 1"/>
     </material>
 
     <material name="black">
