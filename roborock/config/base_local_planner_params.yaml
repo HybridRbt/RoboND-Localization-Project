@@ -1,4 +1,4 @@
 TrajectoryPlannerROS:
 
   holonomic_robot: false
-  controller_frequency: 16
+  controller_frequency: 15
