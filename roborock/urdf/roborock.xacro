@@ -56,7 +56,7 @@
         </collision>
 
         <visual name='back_caster_visual'>
-            <origin xyz="-0.25 0 -0.075" rpy=" 0 0 0"/>
+            <origin xyz="-0.23 0 -0.075" rpy=" 0 0 0"/>
             <geometry>
                 <sphere radius="0.05"/>
             </geometry>
@@ -64,7 +64,7 @@
         </visual>
 
         <collision name='front_caster_collision'>
-            <origin xyz="0.25 0 -0.075" rpy=" 0 0 0"/>
+            <origin xyz="0.23 0 -0.075" rpy=" 0 0 0"/>
             <geometry>
                 <sphere radius="0.0499"/>
             </geometry>
@@ -166,7 +166,7 @@
     </link>
 
     <joint type="fixed" name="camera_joint">
-        <origin xyz="0.4 0 0" rpy="0 0 0"/>
+        <origin xyz="0.3 0 0" rpy="0 0 0"/>
         <child link="camera"/>
         <parent link="chassis"/>
     </joint>
